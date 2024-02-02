@@ -1,0 +1,26 @@
+{
+  "name": "node-starter",
+  "private": true,
+  "scripts": {
+    "start:mf-1.5": "cross-env NODE_ENV=development MF_VERSION=1.5 rspack serve --config rspack.config.ts --env mode=development --mode development",
+    "start:mf-old": "cross-env NODE_ENV=development MF_VERSION=1 rspack serve --config rspack.config.ts --env mode=development --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "antd": "^5.13.2",
+    "antd-4": "npm:antd@^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^0.5.1",
+    "@rspack/core": "^0.5.1",
+    "@rspack/dev-server": "^0.5.1",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "cross-env": "^7.0.3",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2"
+  }
+}
